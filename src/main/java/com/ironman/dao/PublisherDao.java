@@ -1,9 +1,8 @@
 package com.ironman.dao;
 
+import com.ironman.dao.core.CrudDao;
 import com.ironman.entity.Publisher;
 
-import java.util.List;
+public interface PublisherDao extends CrudDao<Publisher, Integer> {
 
-public interface PublisherDao {
-    List<Publisher> findAll() throws Exception;
 }

@@ -57,4 +57,9 @@ public class PublisherDaoImpl extends ConnectionCore implements PublisherDao {
         // result
         return publishers;
     }
+
+    @Override
+    public Publisher findById(Integer integer) throws Exception {
+        return null;
+    }
 }

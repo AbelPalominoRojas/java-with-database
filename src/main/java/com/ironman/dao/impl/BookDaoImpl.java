@@ -58,4 +58,14 @@ public class BookDaoImpl extends ConnectionCore implements BookDao {
         // result
         return books;
     }
+
+    @Override
+    public Book findById(Integer integer) throws Exception {
+        return null;
+    }
+
+    @Override
+    public List<Book> findByPublicationYear(Integer publicationYear) throws Exception {
+        return List.of();
+    }
 }
