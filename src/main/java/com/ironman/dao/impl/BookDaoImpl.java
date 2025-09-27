@@ -65,6 +65,21 @@ public class BookDaoImpl extends ConnectionCore implements BookDao {
     }
 
     @Override
+    public Book create(Book entity) throws Exception {
+        return null;
+    }
+
+    @Override
+    public Book update(Book entity) throws Exception {
+        return null;
+    }
+
+    @Override
+    public void deleteById(Integer integer) throws Exception {
+
+    }
+
+    @Override
     public List<Book> findByPublicationYear(Integer publicationYear) throws Exception {
         return List.of();
     }

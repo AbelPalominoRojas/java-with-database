@@ -62,4 +62,19 @@ public class PublisherDaoImpl extends ConnectionCore implements PublisherDao {
     public Publisher findById(Integer integer) throws Exception {
         return null;
     }
+
+    @Override
+    public Publisher create(Publisher entity) throws Exception {
+        return null;
+    }
+
+    @Override
+    public Publisher update(Publisher entity) throws Exception {
+        return null;
+    }
+
+    @Override
+    public void deleteById(Integer integer) throws Exception {
+
+    }
 }
